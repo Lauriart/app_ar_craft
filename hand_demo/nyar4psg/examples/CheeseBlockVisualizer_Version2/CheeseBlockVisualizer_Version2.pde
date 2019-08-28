@@ -50,7 +50,7 @@ void draw()
   nya.endTransform();
     
   counter++;
-  String imageName = "/Users/laurenedlin/DeskTop/processing_leap/HandRecording/screen-" + nf(counter, 4) + ".tif";
+  String imageName = "../../../HandRecording/hand_images/screen-" + nf(counter, 4) + ".tif";
   println(imageName);
   
   // replace white with transparent
